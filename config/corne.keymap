@@ -74,10 +74,10 @@
 
         bluetooth {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans      &trans  &trans  &to 0
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans      &trans  &trans  &bt BT_CLR
-                        &trans  &trans  &trans    &bt BT_NXT  &trans  &bt BT_PRV
+&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans        &trans      &trans  &trans  &to 0
+&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans        &trans      &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans        &trans      &trans  &trans  &bt BT_CLR
+                        &trans  &trans  &trans    &bt BT_NXT  &bt BT_SEL 0  &bt BT_PRV
             >;
         };
     };
